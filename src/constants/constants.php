@@ -47,6 +47,15 @@
                 echo("<p>The constant INSIDE FUNCTION wasn't created.</p>");
             }
 
+            //  Creating an constant array
+            const CONST_ARRAY = [2, 3, 5, 7, 11, 13, 17, 19];
+
+            $counter = 0;
+
+            while ($counter < count(CONST_ARRAY))   {
+                echo("<p>The value inside CONST_ARRAY at the index $counter is: " . CONST_ARRAY[$counter++] . "</p>");
+            }
+
             //  Proving that constants in PHP are global
             function print_some_constants (): void   {
                 echo("<p>PERFECT_NUMBER: " . PERFECT_NUMBER . "</p>");
