@@ -3,12 +3,12 @@
 <html>
     <head>
         <title>
-            PHP logical and comparison operators
+            PHP logical operators
         </title>
     </head>
     <body>
         <?php
-            echo("<h1>PHP logical and comparison operators</h1>");
+            echo("<h1>PHP logical operators</h1>");
 
             /*
                 Comparison operators
