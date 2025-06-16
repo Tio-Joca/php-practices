@@ -32,6 +32,20 @@
                 this last block of statements will be executed.
                 Otherwise, the execution continues with the next
                 statement right after the decision structure.
+
+                Simplifying, this structure controls program
+                flow based on conditional expressions:
+                
+                - if: Evaluates a condition. If true, executes
+                its code block.
+                - elseif or else if: If previous conditions are
+                false, evaluates another condition.
+                - else: Executes when all previous conditions
+                are false.
+                
+                The program evaluates conditions sequentially
+                until finding the first true condition, executes
+                its block, then skips the rest of the structure.
             */
 
             //  If
