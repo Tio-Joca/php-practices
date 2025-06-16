@@ -11,7 +11,7 @@
             echo("<h1>Switch case</h1>");
 
             /*
-                Multiple decision structure - switch case
+                Multiple decision structure
 
                 Unlike single decision structure, multiple
                 decision structure can execute multiple blocks
