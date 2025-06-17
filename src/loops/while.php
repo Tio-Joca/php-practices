@@ -118,6 +118,12 @@
                     }
                 }
             }
+
+            if ($verifier)  {
+                echo("<p>The integer value stored by \$value is a prime number.</p>");
+            }   else    {
+                echo("<p>The integer value stored by \$value isn't a prime number.</p>");
+            }
         ?>
     </body>
 </html>
